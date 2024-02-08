@@ -5,5 +5,3 @@ def display_products():
 #Function to process a sale
 def sale_process():
     pass
-
-#
