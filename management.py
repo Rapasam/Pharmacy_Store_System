@@ -88,8 +88,8 @@ class SalesRecord:
                 print(f"- {product_name}: {quantity}")
             print(f"Total: ₵{transaction.calculate_total()}\n")
 
-# A Class for the Sales Software
-class SalesSoftware:
+# A Class for the Sales Package
+class SalesPackage:
     def __init__(self, inventory=None, sales_record=None):
         self.inventory = inventory if inventory else Inventory()
         self.sales_record = sales_record if sales_record else SalesRecord()

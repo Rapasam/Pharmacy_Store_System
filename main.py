@@ -15,8 +15,8 @@ if __name__ == "__main__":
     customer = Customer("Monica Nyamekye", "Plot 5 Block K, Anwomaso-Kumasi", "monicanyamekye45@gmail.com")
 
     # Process a sale
-    sales_software = SalesSoftware(inventory)
-    sales_software.process_sale(customer, ["Gebedol Extra", "Martins Liver Salt"], [5, 3], "2024-02-11")
+    sales_package = SalesPackage(inventory)
+    sales_package.process_sale(customer, ["Gebedol Extra", "Martins Liver Salt"], [5, 3], "2024-02-11")
 
     # Generate sales report
-    sales_software.generate_sales_report()
+    sales_package.generate_sales_report()
